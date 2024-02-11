@@ -2,9 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.paedubucher.ch/categories/</loc>
+    <loc>https://blog.paedubucher.ch/posts/hello/</loc>
+    <lastmod>2024-02-11T17:09:05+01:00</lastmod>
   </url><url>
     <loc>https://blog.paedubucher.ch/</loc>
+    <lastmod>2024-02-11T17:09:05+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.paedubucher.ch/posts/</loc>
+    <lastmod>2024-02-11T17:09:05+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.paedubucher.ch/contact/</loc>
+    <lastmod>2024-02-11T17:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.paedubucher.ch/categories/</loc>
   </url><url>
     <loc>https://blog.paedubucher.ch/tags/</loc>
   </url>

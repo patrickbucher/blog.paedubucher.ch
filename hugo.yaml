@@ -2,3 +2,13 @@ baseURL: https://blog.paedubucher.ch
 languageCode: en-us
 title: paedubucher's Blog
 theme: blank
+params:
+  author:
+    name: Patrick Bucher
+    email: patrick.bucher@mailbox.org
+    location: Switzerland
+menu:
+  main:
+    - identifier: contact
+      name: Contact
+      url: /contact

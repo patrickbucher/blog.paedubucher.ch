@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paedubucher&#39;s Blog</title>
-    <link>https://blog.paedubucher.ch/</link>
-    <description>Recent content on paedubucher&#39;s Blog</description>
+    <title>Posts on paedubucher&#39;s Blog</title>
+    <link>https://blog.paedubucher.ch/posts/</link>
+    <description>Recent content in Posts on paedubucher&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>patrick.bucher@mailbox.org (Patrick Bucher)</managingEditor>
     <webMaster>patrick.bucher@mailbox.org (Patrick Bucher)</webMaster>
     <lastBuildDate>Sun, 11 Feb 2024 17:09:05 +0100</lastBuildDate>
-    <atom:link href="https://blog.paedubucher.ch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.paedubucher.ch/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, World!</title>
       <link>https://blog.paedubucher.ch/posts/hello/</link>
       <pubDate>Sun, 11 Feb 2024 17:09:05 +0100</pubDate><author>patrick.bucher@mailbox.org (Patrick Bucher)</author>
       <guid>https://blog.paedubucher.ch/posts/hello/</guid>
       <description>Hello, World!</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://blog.paedubucher.ch/contact/</link>
-      <pubDate>Sun, 11 Feb 2024 17:00:00 +0100</pubDate><author>patrick.bucher@mailbox.org (Patrick Bucher)</author>
-      <guid>https://blog.paedubucher.ch/contact/</guid>
-      <description>E-Mail: patrick DOT bucher AT mailbox DOT org</description>
     </item>
   </channel>
 </rss>
