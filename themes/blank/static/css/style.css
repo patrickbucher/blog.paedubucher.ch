@@ -1,0 +1,49 @@
+body {
+    font-family: serif;
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+}
+
+header, footer {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80%;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fefefe;
+}
+
+footer p {
+    text-align: center;
+    padding: 0.25em;
+}
+
+header a, footer a {
+    color: #fefefe;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+main {
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+}
+
+div, p, li {
+    text-align: justify;
+    hyphens: auto;
+}
