@@ -1,8 +1,16 @@
 body {
     font-family: serif;
-    background-color: #fefefe;
+    background-color: #eee;
     color: #333;
     margin: 0;
+}
+
+a {
+    color: #048;
+}
+
+a:visited {
+    color: #26a;
 }
 
 header, footer {
@@ -12,7 +20,7 @@ header, footer {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #048;
     color: #fefefe;
 }
 
@@ -25,11 +33,23 @@ header a, footer a {
     color: #fefefe;
 }
 
+header a:visited, footer a:visited {
+    color: #fefefe;
+}
+
 nav {
     display: inline-block;
 }
 
-nav li {
+nav ul {
+    margin: 0.5em;
+}
+
+aside {
+    padding: 0.5em;
+}
+
+aside li, nav li {
     list-style-type: none;
     display: inline-block;
 }
@@ -46,4 +66,9 @@ h1, h2, h3, h4, h5 {
 div, p, li {
     text-align: justify;
     hyphens: auto;
+}
+
+pre {
+    padding: 1em;
+    border-radius: 0.5em;
 }
