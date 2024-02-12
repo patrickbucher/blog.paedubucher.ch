@@ -1,7 +1,7 @@
-+++
-title = 'Hello, World!'
-date = 2024-02-11T17:09:05+01:00
-+++
+---
+title: Hello, World!
+date: 2024-02-11T17:09:05+01:00
+---
 
 Hi there. This is my new blog. I'm trying out [Hugo](https://gohugo.io) and
 rather produce something real, which causes me _real_ problems to solve. On this
@@ -11,7 +11,7 @@ year.
 The goal is to publish useful information rather than keeping a journal for
 self-castigation when I'm not doing anything useful.
 
-# Topics
+## Topics
 
 So here's what my readers can expect (German speaking readers can also refer to
 my [2024 Ideas](https://paedubucher.ch/articles/2024-01-01-ideen-fuer-2024.html)
@@ -29,7 +29,7 @@ post on my main website):
 - Literature
     - Software and Mind
 
-# Progress
+## Progress
 
 Here's what I already did:
 

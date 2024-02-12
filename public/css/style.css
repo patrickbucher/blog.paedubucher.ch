@@ -7,16 +7,24 @@ body {
 
 a {
     color: #048;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a:visited {
     color: #26a;
 }
 
+a.backlink {
+    margin: 0 1em 0 0;
+}
+
 header, footer {
     font-family: sans-serif;
     text-align: center;
-    font-size: 80%;
 }
 
 header, footer {
@@ -26,7 +34,9 @@ header, footer {
 
 footer p {
     text-align: center;
-    padding: 0.25em;
+    padding: 0.5em;
+    margin-bottom: 0;
+    font-size: 80%;
 }
 
 header a, footer a {
@@ -41,8 +51,9 @@ nav {
     display: inline-block;
 }
 
-nav ul {
-    margin: 0.5em;
+nav ul, aside ul {
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0;
 }
 
 aside {
@@ -52,10 +63,13 @@ aside {
 aside li, nav li {
     list-style-type: none;
     display: inline-block;
+    margin: 0 1em 0 0;
+    font-family: sans-serif;
 }
 
 main {
     margin: 1em auto;
+    padding: 0 1em;
     max-width: 800px;
 }
 
@@ -63,12 +77,41 @@ h1, h2, h3, h4, h5 {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+h4 {
+    font-size: 100%;
+}
+
 div, p, li {
     text-align: justify;
     hyphens: auto;
+    line-height: 1.5;
+}
+
+ul li {
+    list-style-type: ' ‒ ';
 }
 
 pre {
     padding: 1em;
     border-radius: 0.5em;
+}
+
+time {
+    font-style: italic;
+}
+
+article {
+    margin-bottom: 2em;
 }
